@@ -12,9 +12,7 @@
         <script type="text/javascript" src="barcodescanner.js"></script>
         <script type="text/javascript" src="childbrowser.js"></script>
         <script type="text/javascript">
-			 function onBodyLoad() {     
-				document.addEventListener("deviceready", onDeviceReady, false);
-			 }
+			 document.addEventListener('deviceready', onDeviceReady, false);
 			 
 			 function onDeviceReady() {
 				 window.location.href = 'http://beta.trainstatus.se/barcode/';
